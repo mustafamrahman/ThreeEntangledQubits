@@ -4,8 +4,8 @@ import json
 
 def main():
     # Define registers and circuit
-    q = QuantumRegister(2)
-    c = ClassicalRegister(2)
+    q = QuantumRegister(3)
+    c = ClassicalRegister(3)
     circuit = QuantumCircuit(q, c)
 
     # Quantum circuit starts here
